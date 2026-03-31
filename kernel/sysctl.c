@@ -404,6 +404,7 @@ static struct ctl_table kern_table[] = {
 		.extra1		= &neg_three,
 		.extra2		= &three,
 	},
+#if 0
 	{
 		.procname	= "sched_conservative_pl",
 		.data		= &sysctl_sched_conservative_pl,
@@ -422,6 +423,7 @@ static struct ctl_table kern_table[] = {
 		.extra1		= &two,
 		.extra2		= &one_thousand,
 	},
+#endif
 	{
 		.procname	= "sched_walt_rotate_big_tasks",
 		.data		= &sysctl_sched_walt_rotate_big_tasks,
