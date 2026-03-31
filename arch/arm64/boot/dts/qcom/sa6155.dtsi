@@ -21,6 +21,7 @@
 	aliases {
 		pci-domain0 = &pcie0; /* PCIe0 domain */
 	};
+};
 
 
 &qusb_phy0 {
