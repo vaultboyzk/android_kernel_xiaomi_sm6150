@@ -11,7 +11,6 @@
  */
 
 #include "sm6150.dtsi"
-#include "sa6155-pmic.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. SA6155";
@@ -22,11 +21,7 @@
 	aliases {
 		pci-domain0 = &pcie0; /* PCIe0 domain */
 	};
-};
 
-&tpdm_west {
-	status = "disabled";
-};
 
 &qusb_phy0 {
 	vdd-supply = <&L5A>;
