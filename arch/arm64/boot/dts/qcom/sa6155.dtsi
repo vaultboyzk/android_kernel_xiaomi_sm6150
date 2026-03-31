@@ -11,7 +11,7 @@
  */
 
 #include "sm6150.dtsi"
-#include "sm6155-pmic.dtsi"
+#include "sa6155-pmic.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. SA6155";
